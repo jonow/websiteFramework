@@ -1,0 +1,252 @@
+/*=================================================*/
+/*==========>>> Jono's CSS Framework <<<===========*/
+/*===========>>> Library Stylesheet <<<============*/
+/*==============>>> version: 1.0 <<<===============*/
+/*================>>> 3/18/2012 <<<================*/
+/*=================================================*/
+
+/*=================================================*/
+/*============>>> Table of Contents <<<============*/
+/*=================================================
+
+===================================================*/
+
+/*=================================================*/
+/*===============>>> Color Table <<<===============*/
+/*=================================================
+	*Description*	*State*		*Style*		*Color*
+ -	Text			[normal]	[light]		#333
+ -	Text			[normal]	[dark]		#000
+ -	Background		[normal]	[light]		#fbfbfb
+ -	Background		[hover]		[light]		#ebebeb
+ -	Background		[active]	[light]		#e5e5e5
+ -	Background		[normal]	[dark]		#424242
+ -	Background		[normal]	[darker]	#222
+ -	Border			[normal]	[light]		#d9d9d9
+ -	Border			[normal]	[dark]		#b9b9b9
+ -	Border			[hover]		[light]		#b9b9b9
+ -	Border			[hover]		[dark]		#a0a0a0
+ -	Border			[active]	[blue]		#75a9ff
+===================================================*/
+
+/*========================================
+Pagnation
+========================================*/
+div.pg-container{
+text-align:center;
+margin:.25em 5.3% 1.25em;
+display:block;
+}
+
+span.pg{
+margin:0 auto;
+display:inline-block;
+}
+
+/*===== Numbers =====*/
+span.pg a{
+border:1px solid #b9b9b9;
+background:#fbfbfb;
+color:#6c6eff;
+float:left;
+margin:-1px 0 0 -1px;
+text-decoration:none;
+padding:9px 12px;
+font-weight:700;
+font-size:.85em;
+}
+
+span.pg a:hover{
+background:#ebebeb;
+color:#00c;
+}
+
+span.pg a:active{
+background:#e5e5e5;
+color:#6c6eff;
+}
+
+span.pg a.pg-active,a.pg-active:hover,a.pg-active:active{
+background:#ebebeb;
+color:#a0a0a0;
+cursor:default;
+}
+
+/*===== Pagination Controls =====*/
+a.pg-pre,a.pg-next{
+border:1px solid #b9b9b9;
+font-size:.75em !important;
+}
+
+a.pg-pre{
+border-radius: .385em 0 0 .385em;
+-moz-border-radius: .385em 0 0 .385em;
+-webkit-border-radius: .385em 0 0 .385em;
+}
+
+a.pg-next{
+border-radius: 0 .385em .385em 0;
+-moz-border-radius: 0 .385em .385em 0;
+-webkit-border-radius: 0 .385em .385em 0;
+}
+
+/*========================================
+Article Controls
+========================================*/
+div.ac-container{
+text-align:center;
+margin:.25em 5.3% 1.25em;
+overflow:auto;
+}
+
+div.ac-container a{
+border:1px solid #b9b9b9;
+background:#fbfbfb;
+color:#6c6eff;
+text-decoration:none;
+padding:9px 12px;
+font-weight:700;
+font-size:.85em;
+border-radius:.385em .385em .385em .385em;
+-moz-border-radius:.385em .385em .385em .385em;
+-webkit-border-radius:.385em .385em .385em .385em;
+}
+
+div.ac-container a:hover{
+background:#ebebeb;
+color:#00c;
+}
+
+div.ac-container a:active{
+background:#e5e5e5;
+color:#6c6eff;
+}
+
+div.ac-container a.ac-active,a.ac-active:hover,a.ac-active:active{
+background:#ebebeb;
+color:#a0a0a0;
+cursor:default;
+}
+
+a.ac-pre{
+float:left;
+}
+
+a.ac-next{
+float:right;
+}
+
+/*========================================
+Footnotes
+========================================*/
+a.fn{
+text-decoration:none;
+}
+
+div.footnote ul{
+margin:1.25em 2%;
+}
+
+div.footnote hr{
+width:50%;
+margin:1.25em 3% .25em 0;
+}
+
+div.footnote ol li div{
+margin-left:3.5em;
+text-indent:-3.5em;
+font-size:.85em;
+line-height:1em;
+}
+
+div.footnote ol li a{
+text-decoration:none;
+margin:0 .45em 0 0;
+font-size:1.3em;
+font-weight:700;
+}
+
+/*========================================
+Sharing
+========================================*/
+div.share{
+display:inline-block;
+margin:.25em 5.3% 1.25em;
+}
+
+div.share-shadow{
+display:block;
+background:url(../img/graphic/share-shadow.png) bottom;
+background-repeat:no-repeat;
+height:32px;
+width:60px;
+overflow:hidden;
+margin:5px;
+float:left;
+}
+
+div.share a{
+display:block;
+background:url(../img/graphic/share-icon.png);
+height:32px;
+width:32px;
+margin:14px 14px 0 14px;
+padding:0;
+}
+
+div.share a.twitter{
+background-position:-32px 0;
+}
+
+div.share a.googleplus{
+background-position:-64px 0;
+}
+
+div.share a.stumbleupon{
+background-position:-96px 0;
+}
+
+div.share a.email{
+background-position:-160px 0;
+}
+
+div.share a.rss{
+background-position:-128px 0;
+}
+
+div.share a:hover{
+display:block;
+height:32px;
+width:32px;
+margin:4px 14px 0;
+}
+
+/*========================================
+Star Rating
+========================================*/
+ul.star-rating{
+font-size:2em;
+display:inline-block;
+position:relative;
+}
+
+ul.star-rating li{
+float:left;
+height:32px;
+}
+
+li.percent{
+width:100%;
+height:32px;
+background:#ff0000;
+display:block;
+margin-bottom:-32px !important;
+}
+
+ul.star-rating a{
+color:#f9c810;
+outline:0;
+padding:0;
+text-decoration:none;
+}
+
